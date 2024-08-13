@@ -3,14 +3,14 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/community/:path*',
-        destination: '/community/:path*'
+        source: '/:path*',
+        destination: '/:path*'
       },
       // Add other rewrites if necessary
     ];
   },
   output: "standalone",
-  basePath: "/community",
+
   assetPrefix: "/community",
   images: {
     domains: ['kreatrwebsite.s3.ap-south-1.amazonaws.com'],
