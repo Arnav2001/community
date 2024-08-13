@@ -27,7 +27,7 @@ const NotFound = () => {
             </div>
             <div className="pointer-events-none static order-1 sm:relative sm:order-2 sm:col-span-4 sm:mx-0">
               <img
-                src="/community/assets/images/404_page/404.svg "
+                src="/assets/images/404_page/404.svg "
                 className="static mx-auto h-[12.8469rem] w-[20rem] sm:absolute  sm:left-[15px] sm:top-[-75px] sm:h-[400px] sm:w-[450px] md:left-[45px] md:top-[-75px] md:h-[410px] md:w-[500px] lg:left-[170px] lg:top-[-35px] lg:h-[400px] lg:w-[800px] xl:left-[5.375rem] xl:top-[-1.25rem] xl:h-[40.3862rem] xl:w-[62.8719rem]"
                 alt="page not found"
               />

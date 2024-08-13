@@ -18,7 +18,7 @@ const CareerOpening = () => {
           <div className="absolute right-[-54%] top-[6%] rotate-[10deg] sm:right-[-66px] sm:top-[30px] lg:right-[-98px] lg:top-[24px] xl:right-[-35%] xl:top-[22%]">
             <Image
               className="h-[66.47px] w-[66.47px] sm:h-[76px] sm:w-[76px] lg:h-[110px] lg:w-[110px] xl:h-[120px] xl:w-[120px]"
-              src="/community/assets/images/careers_page/careers-img.svg"
+              src="/assets/images/careers_page/careers-img.svg"
               alt="careers image"
               height={0}
               width={0}

@@ -24,7 +24,7 @@ const ProceedCancelBtn = ({ onProceed, onCancel }) => {
         <div className="relative flex h-[100px] items-center ">
           <div className="absolute left-[22%] top-[-39%] sm:left-[24%] sm:top-[-54%] lg:left-[24%] lg:top-[-60%] xl:left-[24%] xl:top-[-72%]">
             <Image
-              src="/community/assets/images/events_page/cat pop up-01.svg"
+              src="/assets/images/events_page/cat pop up-01.svg"
               className="h-[120px] w-[140px] sm:h-[160px] sm:w-[180pxpx] lg:h-[180px] lg:w-[200px] xl:h-[230px] xl:w-[239px] "
               alt="cat image"
               height={20}
@@ -37,7 +37,7 @@ const ProceedCancelBtn = ({ onProceed, onCancel }) => {
           >
             {/* Added onClick event handler to close the box */}
             <Image
-              src="/community/assets/images/events_page/close-btn.svg"
+              src="/assets/images/events_page/close-btn.svg"
               alt="close button"
               className="h-[18px] w-[18px] sm:h-[20px] sm:w-[20px] lg:h-[26px] lg:w-[26px] xl:h-[32px] xl:w-[32px]"
               height={10}

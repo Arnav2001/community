@@ -13,7 +13,7 @@ const CareersEmpty = () => {
       <div className="mt-[50px] flex flex-col items-center justify-center sm:mt-[60px] xl:mt-[80px]">
         <Image
           className="h-[54px] w-[54px] xl:h-[95px] xl:w-[95px]"
-          src={"/community/assets/images/careers_page/smile-careers.svg"}
+          src={"/assets/images/careers_page/smile-careers.svg"}
           width={80}
           height={80}
           alt="smile emoji"

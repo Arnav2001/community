@@ -18,7 +18,7 @@ const Footer = () => {
                   >
                     <Image
                       src={
-                        "/community/assets/images/home_page/social_media_icons/Whatsapp.svg"
+                        "/assets/images/home_page/social_media_icons/Whatsapp.svg"
                       }
                       className=" md:h-[28px] md:w-[28px] lg:h-[30px] lg:w-[30px] xl:h-[36px] xl:w-[36px]"
                       alt="Whatsapp"
@@ -33,7 +33,7 @@ const Footer = () => {
                   >
                     <Image
                       src={
-                        "/community/assets/images/home_page/social_media_icons/Instagram.svg"
+                        "/assets/images/home_page/social_media_icons/Instagram.svg"
                       }
                       className=" md:h-[28px] md:w-[28px] lg:h-[30px] lg:w-[30px] xl:h-[36px] xl:w-[36px]"
                       alt="Instagram"
@@ -48,7 +48,7 @@ const Footer = () => {
                   >
                     <Image
                       src={
-                        "/community/assets/images/home_page/social_media_icons/LinkedIn.svg"
+                        "/assets/images/home_page/social_media_icons/LinkedIn.svg"
                       }
                       className=" md:h-[28px] md:w-[28px] lg:h-[30px] lg:w-[30px] xl:h-[36px] xl:w-[36px]"
                       alt="Linkedin"
@@ -179,7 +179,7 @@ const Footer = () => {
               >
                 <Image
                   src={
-                    "/community/assets/images/home_page/social_media_icons/Whatsapp.svg"
+                    "/assets/images/home_page/social_media_icons/Whatsapp.svg"
                   }
                   className="h-[20px] w-[20px] "
                   alt="Whatsapp"
@@ -194,7 +194,7 @@ const Footer = () => {
               >
                 <Image
                   src={
-                    "/community/assets/images/home_page/social_media_icons/Instagram.svg"
+                    "/assets/images/home_page/social_media_icons/Instagram.svg"
                   }
                   className="h-[20px] w-[20px] "
                   alt="Instagram"
@@ -209,7 +209,7 @@ const Footer = () => {
               >
                 <Image
                   src={
-                    "/community/assets/images/home_page/social_media_icons/LinkedIn.svg"
+                    "/assets/images/home_page/social_media_icons/LinkedIn.svg"
                   }
                   className="h-[20px] w-[20px] "
                   alt="Linkedin"

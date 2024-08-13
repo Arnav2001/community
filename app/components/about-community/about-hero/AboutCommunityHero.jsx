@@ -23,7 +23,7 @@ const AboutCommunityHero = () => {
             <div className="absolute left-[10%] top-[-32%] sm:static sm:ml-[80px] ">
               <Image
                 className=" h-[228px] w-[254px] rounded-[15px] object-cover object-center sm:h-[350px] sm:w-[300px] lg:h-[360px] lg:w-[390px] xl:h-[401px] xl:w-[456px]"
-                src="/community/assets/images/about_community/about-community-1.jpg"
+                src="/assets/images/about_community/about-community-1.jpg"
                 alt="Community image"
                 height={0}
                 width={0}
@@ -34,7 +34,7 @@ const AboutCommunityHero = () => {
           <div className="relative sm:static sm:mt-[30px] sm:flex sm:gap-[20px] lg:mt-[25px] lg:gap-[25px] xl:mt-[25px] xl:gap-[30px]">
             <Image
               className="absolute left-[10%] top-[-32%] h-[228px] w-[254px] rounded-[15px]   object-cover object-center sm:static sm:h-[350px] sm:w-[320px] lg:h-[360px] lg:w-[390px] xl:h-[401px] xl:w-[456px]"
-              src="/community/assets/images/about_community/about-community-2.jpg"
+              src="/assets/images/about_community/about-community-2.jpg"
               alt="Community image"
               height={0}
               width={0}
@@ -80,7 +80,7 @@ const AboutCommunityHero = () => {
             <div className="absolute left-[10%] top-[-42%] sm:static ">
               <Image
                 className="h-[228px] w-[254px] rounded-[15px] object-cover object-center sm:h-[350px] sm:w-[300px] lg:h-[360px] lg:w-[366px] xl:h-[401px] xl:w-[456px]"
-                src="/community/assets/images/about_community/about-community-3.jpg"
+                src="/assets/images/about_community/about-community-3.jpg"
                 alt="Community image"
                 height={0}
                 width={0}
@@ -92,7 +92,7 @@ const AboutCommunityHero = () => {
             <div className="absolute left-[10%] top-[-40%] sm:static ">
               <Image
                 className="h-[228px] w-[254px] rounded-[15px] object-cover object-center sm:h-[350px] lg:h-[360px] lg:w-[390px] xl:h-[401px] xl:w-[456px]"
-                src="/community/assets/images/about_community/about-community-4.jpg"
+                src="/assets/images/about_community/about-community-4.jpg"
                 alt="Community image"
                 height={0}
                 width={0}
@@ -119,7 +119,7 @@ const AboutCommunityHero = () => {
                 >
                   <Image
                     className="playstore  h-[40px] w-[40px]  lg:h-[55px] lg:w-[55px]"
-                    src="/community/assets/images/about_community/playstore-community.svg"
+                    src="/assets/images/about_community/playstore-community.svg"
                     alt="play store icon"
                     height={0}
                     width={0}
@@ -133,7 +133,7 @@ const AboutCommunityHero = () => {
                 >
                   <Image
                     className="appstore h-[40px] w-[40px] lg:h-[55px] lg:w-[55px]"
-                    src="/community/assets/images/about_community/appstore-community.svg"
+                    src="/assets/images/about_community/appstore-community.svg"
                     alt="play store icon"
                     height={0}
                     width={0}

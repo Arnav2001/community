@@ -14,7 +14,7 @@ const SearchSection = () => {
           <span className="absolute bottom-[-90%] right-[22%] sm:right-[-10%] sm:top-[150%] lg:right-[-12%] lg:top-[168%] xl:right-[-7%] xl:top-[246%]">
             <Image
               className="h-[41.17px] w-[109.81px] sm:h-[55px] sm:w-[160px] lg:h-[65px] lg:w-[185px] xl:h-[72.27px] xl:w-[192.74px]"
-              src="/community/assets/images/FAQ_page/FAQ-sticker.svg"
+              src="/assets/images/FAQ_page/FAQ-sticker.svg"
               alt="FAQ Sticker"
               height={0}
               width={0}
