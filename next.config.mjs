@@ -3,10 +3,6 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/:path*',
-        destination: '/:path*'
-      },
-      {
         source: '/community/:path*',
         destination: '/community/:path*'
       },
