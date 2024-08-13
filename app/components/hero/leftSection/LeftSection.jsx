@@ -2,14 +2,6 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import HappyOutline from "@/public/community/assets/images/home_page/Outlined-happy-emoji.svg";
-import HappyFilled from "@/public/community/assets/images/home_page/Filled-happy-emoji.svg";
-import SadOutline from "@/public/community/assets/images/home_page/Outlined-sad-emoji.svg";
-import SadFilled from "@/public/community/assets/images/home_page/Filled-sad-emoji.svg";
-import LightPlayStore from "@/public/community/assets/images/home_page/Light-playstore.svg";
-import LightAppStore from "@/public/community/assets/images/home_page/Light-applestore.svg";
-import DarkPlayStore from "@/public/community/assets/images/home_page/Dark-playstore.svg";
-import DarkAppStore from "@/public/community/assets/images/home_page/Dark-applestore.svg";
 import "@mantine/carousel/styles.css";
 import { Carousel } from "@mantine/carousel";
 import Autoplay from "embla-carousel-autoplay";
@@ -151,13 +143,27 @@ const LeftSection = () => {
       </div>
       <div className="my-2 flex items-center gap-2 sm:my-1 md:my-2">
         <Image
-          src={happyActive ? HappyFilled : HappyOutline}
+          src={
+            happyActive
+              ? "/community/assets/images/home_page/Outlined-happy-emoji.svg"
+              : "/community/assets/images/home_page/Outlined-happy-emoji.svg"
+          }
+          height={0}
+          width={0}
+          sizes="100vw"
           onClick={toggleHappy}
           className="h-[2.1875rem] w-[2.1875rem] cursor-pointer  sm:h-[1.875rem] sm:w-[1.875rem] md:h-[1.875rem] md:w-[1.875rem] lg:h-[2.1875rem] lg:w-[2.1875rem] xl:h-40 xl:w-40 "
           alt="Happy emoji"
         />
         <Image
-          src={sadActive ? SadFilled : SadOutline}
+          src={
+            sadActive
+              ? "/community/assets/images/home_page/Filled-sad-emoji.svg"
+              : "/community/assets/images/home_page/Outlined-sad-emoji.svg"
+          }
+          height={0}
+          width={0}
+          sizes="100vw"
           onClick={toggleSad}
           className="h-[2.1875rem] w-[2.1875rem] cursor-pointer  sm:h-[1.875rem] sm:w-[1.875rem] md:h-[1.875rem] md:w-[1.875rem] lg:h-[2.1875rem] lg:w-[2.1875rem] xl:h-40 xl:w-40"
           alt="Sad emoji"
@@ -250,16 +256,22 @@ const LeftSection = () => {
                 {/* <img src="/community/assets/images/Dark-playstore.svg" alt="" /> */}
                 <Image
                   className="ml-[.875rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72"
-                  src={DarkPlayStore}
+                  src="/community/assets/images/home_page/Dark-playstore.svg"
                   alt="Play store"
+                  height={0}
+                  width={0}
+                  sizes="100vw"
                 />
               </div>
             ) : (
               <div>
                 <Image
                   className="ml-[.875rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72"
-                  src={LightPlayStore}
+                  src="/community/assets/images/home_page/Light-playstore.svg"
                   alt="Play store"
+                  height={0}
+                  width={0}
+                  sizes="100vw"
                 />
               </div>
             )}
@@ -286,15 +298,21 @@ const LeftSection = () => {
           >
             {logoAppActive ? (
               <Image
-                src={DarkAppStore}
+                src="/community/assets/images/home_page/Dark-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
+                height={0}
+                width={0}
+                sizes="100vw"
               />
             ) : (
               <Image
-                src={LightAppStore}
+                src="/community/assets/images/home_page/Light-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
+                height={0}
+                width={0}
+                sizes="100vw"
               />
             )}
             <p

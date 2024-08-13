@@ -2,10 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LightPlayStore from "@/public/community/assets/images/home_page/Light-playstore.svg";
-import LightAppStore from "@/public/community/assets/images/home_page/Light-applestore.svg";
-import DarkPlayStore from "@/public/community/assets/images/home_page/Dark-playstore.svg";
-import DarkAppStore from "@/public/community/assets/images/home_page/Dark-applestore.svg";
+
 
 const JoinKlan = () => {
   const [logoPlayActive, setLogoPlayActive] = useState(false);
@@ -140,7 +137,7 @@ const JoinKlan = () => {
                 {/* <img src="/community/assets/images/Dark-playstore.svg" alt="" /> */}
                 <Image
                   className="ml-[.875rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72"
-                  src={DarkPlayStore}
+                  src="/community/assets/images/home_page/Dark-playstore.svg"
                   alt="Play store"
                   height={0}
                   width={0}
@@ -150,7 +147,7 @@ const JoinKlan = () => {
               <div>
                 <Image
                   className="ml-[.875rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72"
-                  src={LightPlayStore}
+                  src="/community/assets/images/home_page/Light-playstore.svg"
                   alt="Play store"
                   height={0}
                   width={0}
@@ -179,7 +176,7 @@ const JoinKlan = () => {
           >
             {logoAppActive ? (
               <Image
-                src={DarkAppStore}
+                src="/community/assets/images/home_page/Dark-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
                 height={0}
@@ -187,7 +184,7 @@ const JoinKlan = () => {
               />
             ) : (
               <Image
-                src={LightAppStore}
+                src="/community/assets/images/home_page/Light-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
                 height={0}
@@ -212,7 +209,7 @@ const JoinKlan = () => {
           <div className=" flex h-[50px] w-[140px] items-center rounded-full border border-[#2A2A2A]  text-[.875rem] font-medium leading-[14px] text-[#2A2A2A]">
             <Image
               className="ml-[.9375rem] h-[1.625rem] w-[1.4375rem]"
-              src={DarkPlayStore}
+              src="/community/assets/images/home_page/Dark-playstore.svg"
               alt="Play store"
               height={0}
               width={0}
@@ -226,7 +223,7 @@ const JoinKlan = () => {
         <Link href="https://apps.apple.com/in/app/kreatr/id6474967284">
           <div className="flex h-[50px] w-[140px] items-center rounded-full border border-[#2A2A2A]  text-[.875rem] font-medium leading-[14px] text-[#2A2A2A]">
             <Image
-              src={DarkAppStore}
+              src="/community/assets/images/home_page/Dark-applestore.svg"
               className="ml-[.9375rem] h-[1.625rem] w-[1.4375rem]"
               alt="App store"
               height={0}

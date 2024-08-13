@@ -517,10 +517,10 @@ h1{
   text-align: center;
 }
 .box4:hover .playstore{
-  content: url(../public/community/assets/images/about_community/playstore-yellow.svg);
+  content: url(/community/assets/images/about_community/playstore-yellow.svg);
 }
 .box4:hover .appstore{
-  content: url(../public/community/assets/images/about_community/appstore-yellow.svg);
+  content: url(/community/assets/images/about_community/appstore-yellow.svg);
 }
 } 
 

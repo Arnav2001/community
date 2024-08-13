@@ -16,7 +16,7 @@ const RightSection = () => {
           />
         </Link>
         <Link
-          href="https://studio-website-eta.vercel.app/"
+          href="https://www.thekreatr.com/"
           target="_blank"
           rel="noreferrer"
         >

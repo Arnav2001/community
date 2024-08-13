@@ -139,7 +139,7 @@ const Footer = () => {
                     <Link
                       target="_blank"
                       rel="noreferrer"
-                      href="https://studio-website-eta.vercel.app/"
+                      href="https://www.thekreatr.com/"
                       className=" cursor-pointer sm:inline-block sm:hover:italic"
                     >
                       Studio
@@ -159,7 +159,7 @@ const Footer = () => {
                     <Link
                       target="_blank"
                       rel="noreferrer"
-                      href="https://studio-website-eta.vercel.app/"
+                      href="https://www.thekreatr.com/"
                       className=" cursor-pointer sm:inline-block sm:hover:italic"
                     >
                       Studio
