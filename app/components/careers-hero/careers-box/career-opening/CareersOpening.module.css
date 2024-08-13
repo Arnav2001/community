@@ -1,0 +1,49 @@
+@media (min-width: 640px) and (max-width: 1279px){
+  .jobBox {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .jobBox:hover {
+    background-color: rgba(234, 218, 255, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .jobBox:hover .subBox {
+    background-color: #2A2A2A;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1280px){
+  .jobBox {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .jobBox:hover {
+    background-color: rgba(234, 218, 255, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .jobBox:hover .subBox {
+    background-color: #2A2A2A;
+    color: white;
+  }
+
+}
+@media only screen and (min-width: 1440px) {
+  .jobBox {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .jobBox:hover {
+    background-color: rgba(234, 218, 255, 0.5);
+    transform: scale(1.1);
+  }
+  
+  .jobBox:hover .subBox {
+    background-color: #2A2A2A;
+    color: white;
+  }
+}
+
+  

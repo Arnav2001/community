@@ -1,0 +1,42 @@
+.notActiveTab {
+    border: 1px solid #2A2A2A;
+    background-color: transparent;
+    color: #2A2A2A;
+    font-family: 'Neue Montreal';
+    font-size: 16px;
+    padding: 12px 24px;
+    margin-right: 8px;
+  }
+  
+  .activeTab {
+    border: none;
+    background-color: #2A2A2A;
+    color: #FFFDEE;
+    font-family: 'Neue Montreal';
+    font-size: 16px;
+    padding: 12px 24px;
+    margin-right: 8px;
+  }
+  
+
+  @media only screen and (max-width: 639px){
+    .notActiveTab {
+      border: 1px solid #2A2A2A;
+      background-color: transparent;
+      color: #2A2A2A;
+      font-family: 'Neue Montreal';
+      font-size: 16px;
+      padding: 6px 16px;
+      margin-right: 8px;
+    }
+    
+    .activeTab {
+      border: none;
+      background-color: #2A2A2A;
+      color: #FFFDEE;
+      font-family: 'Neue Montreal';
+      font-size: 16px;
+      padding: 6px 16px;
+      margin-right: 8px;
+    }
+  }

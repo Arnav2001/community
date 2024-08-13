@@ -1,0 +1,10 @@
+
+@media (max-width: 640px) {
+    .menuWrap{
+        background-image: url('../../../public/assets/images/home_page/Backrgound-img.jpg');
+        height: 100%;
+        width: 100%;
+    }
+}
+
+

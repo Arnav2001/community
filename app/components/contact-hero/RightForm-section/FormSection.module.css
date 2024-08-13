@@ -1,0 +1,192 @@
+.formWrap{
+    font-family: "Neue Montreal";
+    font-weight: 500;
+}
+
+.transparentInput{
+    background-color: transparent;
+    padding-bottom: 2px;
+    border-color: #2A2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparentInputArea{
+    background-color: transparent;
+    padding-bottom: 2px;
+    border-color: #2A2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transparentInput::placeholder{
+    color:#2A2A2A;
+    opacity: 40%;
+    font-size: 16px;
+    margin-left: 40px;
+    font-family: "Neue Montreal";
+       
+}
+.transparentInputArea::placeholder{
+    color:#2A2A2A;
+    opacity: 40%;
+    font-size: 16px;
+    margin-left: 40px;
+    font-family: "Neue Montreal";
+    
+}
+.transparentInput{
+    &[data-error] {
+        border-color: #2A2A2A;
+      }
+} 
+.transparentInputArea{
+    &[data-error] {
+        border-color: #2A2A2A;
+      }
+} 
+.inputError{
+    color: #DE033E;
+    margin-top: 6px;
+}
+
+.inputLabel{
+    color: #2A2A2A;
+    font-size: 1.125rem;
+    margin-bottom: 4px;
+    
+}
+@media (min-width: 640px) and (max-width: 1279px){
+    .formButton {
+        height: 40px;
+        width: 100px;
+        color: #FFFDEE;
+        letter-spacing: 1px;
+    }
+    .formButton:hover {
+        height: 40px;
+        width: 100px;
+        color: #2A2A2A;
+        letter-spacing: 1px;
+        background: transparent;
+        border: 1px solid #2A2A2A;
+    }
+}
+
+
+@media only screen and (max-width: 639px) {
+    .formButton {
+        height: 40px;
+        width: 260px;
+        color: #FFFDEE;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    .transparentInput::placeholder{
+        color:#2A2A2A;
+        opacity: 40%;
+        font-size: 12px;
+        margin-left: 40px;
+        font-family: "Neue Montreal";
+        
+    }
+    .transparentInputArea::placeholder{
+        color:#2A2A2A;
+        opacity: 40%;
+        font-size: 12px;
+        margin-left: 40px;
+        font-family: "Neue Montreal";
+        
+    }
+    .inputLabel{
+        color: #2A2A2A;
+        font-size: 1rem;
+    }
+    .sentMessage{
+        font-family: "Neue Montreal";
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 25px;
+        color:#41A752;
+        opacity:70%
+    }
+    .transparentInputArea{
+        background-color: transparent;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .transparentInput::placeholder{
+        color:#2A2A2A;
+        opacity: 40%;
+        font-size: 14px;
+        margin-left: 40px;
+        font-family: "Neue Montreal";
+
+    }
+    .transparentInputArea::placeholder{
+        color:#2A2A2A;
+        opacity: 40%;
+        font-size: 14px;
+        margin-left: 40px;
+        font-family: "Neue Montreal";
+
+    }
+    .formButton {
+        height: 40.16px;
+        width: 133.87px;
+        color: #FFFDEE;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    .formButton:hover {
+        font-size: 16px;
+        height: 40.16px;
+        width: 133.87px;
+        letter-spacing: 1px;
+        color: #2A2A2A;
+        background-color: transparent;
+        border: 1px solid #2A2A2A;
+    }
+    .sentMessage{
+        font-family: "Neue Montreal";
+        font-size: 12px;
+        margin-top: 12px;
+        color:#41A752;
+        opacity:70%;
+        font-weight: 500;
+    }
+    .transparentInputArea{
+        background-color: transparent;
+        padding-top: 7px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .formButton {
+        height: 40.16px;
+        width: 133.87px;  
+        color: #FFFDEE;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .formButton:hover {
+        height: 40.16px;
+        width: 133.87px;  
+        letter-spacing: 1px;
+        color: #2A2A2A;
+        background-color: transparent;
+        border: 1px solid #2A2A2A;
+        font-size: 20px;
+    }
+    .sentMessage{
+        font-family: "Neue Montreal";
+        font-size: 15px;
+        margin-top: 10px;
+        color:#41A752;
+        opacity:70%;
+        font-weight: 500;
+    }
+}

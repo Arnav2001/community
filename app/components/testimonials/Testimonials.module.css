@@ -1,0 +1,118 @@
+@media only screen and (max-width: 639px){
+  .card {
+    font-size: 14px;
+    height: 220px;
+    width :230px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFFEF5;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+  }
+  .activeSlide {
+    margin-top: 24px;
+    transform: scale(1.05); /* Adjust the scale value as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+}
+@media (min-width: 640px) and (max-width: 1279px){
+  .card {
+    height: 220px;
+    width :345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFFEF5;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+  }
+  .activeSlide {
+   
+    margin-top: 40px;
+    transform: scale(1.05); /* Adjust the scale value as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+}
+@media only screen and (min-width: 1280px){
+  .card {
+    height: 250px;
+    width :370px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFFEF5;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+  }
+  .activeSlide {
+   
+    margin-top: 30px;
+    transform: scale(1.05); /* Adjust the scale value as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+}
+@media only screen and (min-width: 1440px){
+  .card {
+    height: 283px;
+    width :465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFFEF5;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+  }
+  .activeSlide {
+   
+    margin-top: 40px;
+    transform: scale(1.05); /* Adjust the scale value as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+
+  
+  .title {
+    font-family:"Neue Montreal";
+    color: var(--mantine-color-white);
+    line-height: 1.2;
+    font-size: rem(32px);
+    margin-top: var(--mantine-spacing-xs);
+  }
+  
+  .category {
+    color: var(--mantine-color-white);
+    opacity: 0.7;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .carouselIndicator {
+    width: rem(4px);
+    height: rem(4px);
+    transition: width 250ms ease;
+    &[data-active] {
+      width: rem(16px);
+
+    }
+  }
+  
+  .slide {
+    transform: scale(0.8); /* Normal size for slides */
+    transition: transform 0.3s ease-in-out;
+    margin-top: 30px;
+  }
+  
+  

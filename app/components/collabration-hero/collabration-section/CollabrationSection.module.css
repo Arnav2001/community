@@ -1,0 +1,54 @@
+
+
+.scrollbarHide::-webkit-scrollbar {
+  display: none;  
+}
+
+.notActiveTab {
+    border: 1px solid #2A2A2A;
+    background-color: transparent;
+    color: #2A2A2A;
+    font-family: 'Neue Montreal';;
+    margin-right: 10px;
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+  
+  .activeTab {
+    border: none;
+    margin-right: 10px;
+    border: 1px solid #2A2A2A;
+    background-color: #2A2A2A;
+    color: #FFFDEE;
+    font-family: 'Neue Montreal';
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 639px){
+    .notActiveTab {
+      border: 1px solid #2A2A2A;
+      background-color: transparent;
+      color: #2A2A2A;
+      font-family: 'Neue Montreal';
+      height: 25px ;
+      width: 91px;
+      font-size: 14px;
+    }
+    .noWrap{
+      flex-wrap: nowrap;
+      
+    }
+    
+    .activeTab {
+      border: none;
+      border: 1px solid #2A2A2A;
+      background-color: #2A2A2A;
+      color: #FFFDEE;
+      font-family: 'Neue Montreal';
+      height: 25px ;
+      width: 91px;
+      font-size: 14px;
+    }
+
+  }
