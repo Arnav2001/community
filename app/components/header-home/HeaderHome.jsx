@@ -32,7 +32,7 @@ const HeaderHome = () => {
           <Link href="/">
             <Image
               className="my-3 h-[25px] w-124 sm:h-[30px] sm:w-[8rem] lg:h-[30px] lg:w-[10rem] xl:h-[40px] xl:w-[181px]"
-              src={"/community/assets/images/home_page/logo/Kreatr-logo.svg"}
+              src={"/assets/images/home_page/logo/Kreatr-logo.svg"}
               alt="Kreatr Logo"
               height={27}
               width={160}

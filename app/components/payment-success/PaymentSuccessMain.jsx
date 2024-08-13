@@ -8,7 +8,7 @@ const PaymentSuccessMain = () => {
       <div className="mt-[40px] flex flex-col items-center justify-center sm:mt-[44px] lg:mt-[60px] xl:mt-[72px]">
         <div className="flex flex-col items-center justify-center">
           <Image
-            src="/community/assets/images/payment/green-tick.svg"
+            src="/assets/images/payment/green-tick.svg"
             className="h-[46px] w-[49px] sm:h-[102px] sm:w-[98px]"
             height={102}
             width={98}
@@ -19,7 +19,7 @@ const PaymentSuccessMain = () => {
         </div>
         <div className="mb-[30px] mt-[24px] flex flex-col items-center justify-center sm:mb-[34px] sm:mt-[28px] lg:mb-[46px] lg:mt-[32px] xl:mb-[52px] xl:mt-[44px] ">
           <Image
-            src="/community/assets/images/payment/ticket img.svg"
+            src="/assets/images/payment/ticket img.svg"
             height={122}
             width={100}
             className="h-[310px] w-[280px] sm:h-[400px] sm:w-[380px] lg:h-[560px] lg:w-[530px] xl:h-[692px] xl:w-[612px]"

@@ -83,7 +83,7 @@ const Header = () => {
           <CustomLink href="/" closeMenu={closeMenu} menuOpen={menuOpen}>
             <Image
               className="my-3 h-[25px] w-124 sm:h-[30px] sm:w-[8rem] lg:h-[30px] lg:w-[10rem] xl:h-[40px] xl:w-[181px]"
-              src={"/community/assets/images/home_page/logo/Kreatr-logo.svg"}
+              src={"/assets/images/home_page/logo/Kreatr-logo.svg"}
               alt="Kreatr Logo"
               height={27}
               width={160}
@@ -119,7 +119,7 @@ const Header = () => {
                 <Image
                   className="h-[68px]  w-[130px] sm:h-[98px] sm:w-[160px] lg:h-[65px] lg:w-[120px] xl:h-[84px] xl:w-[150px]"
                   src={
-                    "/community/assets/images/home_page/menu_stickers/menu-withshadow.svg"
+                    "/assets/images/home_page/menu_stickers/menu-withshadow.svg"
                   }
                   alt="menu image"
                   height={68}
@@ -130,7 +130,7 @@ const Header = () => {
                 <Image
                   className="h-[51px] w-[96px] sm:h-[75px] sm:w-[130px] lg:h-[55px] lg:w-[90px] xl:h-[60px] xl:w-[100px]"
                   src={
-                    "/community/assets/images/home_page/menu_stickers/explorer-withshadow.svg"
+                    "/assets/images/home_page/menu_stickers/explorer-withshadow.svg"
                   }
                   alt="explorer image"
                   height={60}
@@ -146,7 +146,7 @@ const Header = () => {
                   <Image
                     className="h-[134px] w-[134px] hover:scale-105 sm:h-[181px] sm:w-[181px] lg:h-[131px] lg:w-[141px] xl:h-[175px] xl:w-[181px]"
                     src={
-                      "/community/assets/images/home_page/menu_stickers/about-layerblur.svg"
+                      "/assets/images/home_page/menu_stickers/about-layerblur.svg"
                     }
                     alt="about image"
                     height={141}
@@ -165,7 +165,7 @@ const Header = () => {
                   <Image
                     className="h-[92px] w-[152px] hover:scale-105 sm:h-[130px] sm:w-[185px] lg:h-[85px] lg:w-[160px] xl:h-[110px] xl:w-[185px]"
                     src={
-                      "/community/assets/images/home_page/menu_stickers/studio.svg"
+                      "/assets/images/home_page/menu_stickers/studio.svg"
                     }
                     alt="studio image"
                     height={90}
@@ -182,7 +182,7 @@ const Header = () => {
                   <Image
                     className="h-[48px] w-[172px] hover:scale-105 sm:h-[85px] sm:w-[236px] lg:h-[50px] lg:w-[200px] xl:h-[66px] xl:w-[236px]"
                     src={
-                      "/community/assets/images/home_page/menu_stickers/events-withshadow.svg"
+                      "/assets/images/home_page/menu_stickers/events-withshadow.svg"
                     }
                     alt="events image"
                     height={66}
@@ -199,7 +199,7 @@ const Header = () => {
                   <Image
                     className="h-[65px] w-[120px] hover:scale-105 sm:h-[100px] sm:w-[170px] md:w-[190px] lg:h-[60px] lg:w-[150px] xl:h-[75px] xl:w-[170px]"
                     src={
-                      "/community/assets/images/home_page/menu_stickers/community-withshadow.svg"
+                      "/assets/images/home_page/menu_stickers/community-withshadow.svg"
                     }
                     alt="community image"
                     height={65}
@@ -216,7 +216,7 @@ const Header = () => {
                   <Image
                     className="h-[102px] w-[79px] hover:scale-105 sm:h-[154px] sm:w-[120px] lg:h-[114px] lg:w-[95px] xl:h-[150px] xl:w-[120px]"
                     src={
-                      "/community/assets/images/home_page/menu_stickers/contact-withshadow.svg"
+                      "/assets/images/home_page/menu_stickers/contact-withshadow.svg"
                     }
                     alt="contact image"
                     height={124}
@@ -227,7 +227,7 @@ const Header = () => {
               <Image
                 className="pointer-events-none relative mt-[50px] h-[500px] w-[352px] rotate-[-3deg] sm:mt-[50px] sm:h-[710px] sm:w-[480px] md:w-[496px] lg:mt-0 lg:h-[430px] lg:w-[340px] xl:h-[500px] xl:w-[450px]"
                 src={
-                  "/community/assets/images/home_page/logo/ziplock-cover.png"
+                  "/assets/images/home_page/logo/ziplock-cover.png"
                 }
                 alt="Ziplock cover image"
                 height={430}

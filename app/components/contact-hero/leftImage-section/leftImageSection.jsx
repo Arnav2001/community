@@ -24,7 +24,7 @@ const LeftImageSection = () => {
               >
                 <img
                   className="mr-1 sm:h-[15px] sm:w-[15px] lg:h-[20px] lg:w-[20px] xl:h-[20px] xl:w-[20px]"
-                  src="/community/assets/images/contact_page/Email-form.svg"
+                  src="/assets/images/contact_page/Email-form.svg"
                   alt="Email"
                 />
                 community@thekreatr.com
@@ -37,7 +37,7 @@ const LeftImageSection = () => {
               >
                 <img
                   className="mr-1 sm:h-[15px] sm:w-[15px] lg:h-[20px] lg:w-[20px] xl:h-[20px] xl:w-[20px]"
-                  src="/community/assets/images/contact_page/Phone-form.svg"
+                  src="/assets/images/contact_page/Phone-form.svg"
                   alt="Phone"
                 />
                 +91 72040 04953
@@ -48,7 +48,7 @@ const LeftImageSection = () => {
         <div className="sm:col-span-3 ">
           <img
             className="h-[137px] w-[19.625rem] rounded-xl object-cover object-center sm:h-[171px] sm:w-[400px] lg:h-[171px] lg:w-[400px] xl:h-[191px] xl:w-[418px]"
-            src="/community/assets/images/contact_page/contact-img.jpg"
+            src="/assets/images/contact_page/contact-img.jpg"
             alt="form img"
           />
         </div>
@@ -66,7 +66,7 @@ const LeftImageSection = () => {
               >
                 <img
                   className="mr-1 xl:h-[15px] xl:w-[15px]"
-                  src="/community/assets/images/contact_page/Email-form.svg"
+                  src="/assets/images/contact_page/Email-form.svg"
                   alt="Email"
                 />
                 marketing@thekreatr.com
@@ -79,7 +79,7 @@ const LeftImageSection = () => {
               >
                 <img
                   className="mr-1 xl:h-[15px] xl:w-[15px]"
-                  src="/community/assets/images/contact_page/Phone-form.svg"
+                  src="/assets/images/contact_page/Phone-form.svg"
                   alt="Phone"
                 />
                 +91 72040 04953

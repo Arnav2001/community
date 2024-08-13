@@ -11,7 +11,7 @@ const nextConfig = {
   },
   output: "standalone",
 
-  assetPrefix: "/community",
+  // assetPrefix: "/community",
   images: {
     domains: ['kreatrwebsite.s3.ap-south-1.amazonaws.com'],
     remotePatterns: [

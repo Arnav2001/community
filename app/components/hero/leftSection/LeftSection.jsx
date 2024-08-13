@@ -19,7 +19,7 @@ const LeftSection = () => {
 
   useEffect(() => {
     if (typeof Audio !== "undefined") {
-      audioRef.current = new Audio("/community/assets/audio/kreatr-audio.mp3");
+      audioRef.current = new Audio("/assets/audio/kreatr-audio.mp3");
     }
     if (audioRef.current.pause()) {
       setSoundActive(false);
@@ -91,7 +91,7 @@ const LeftSection = () => {
         </p>
         {soundActive ? (
           <Image
-            src="/community/assets/images/home_page/filled-speaker.svg"
+            src="/assets/images/home_page/filled-speaker.svg"
             className="h-[19px] w-[19px] cursor-pointer xl:h-[30px] xl:w-[30px]"
             alt="Active speaker"
             height={30}
@@ -100,7 +100,7 @@ const LeftSection = () => {
           />
         ) : (
           <Image
-            src="/community/assets/images/home_page/outlined-speaker.svg"
+            src="/assets/images/home_page/outlined-speaker.svg"
             className="h-[19px] w-[19px] cursor-pointer xl:h-[30px] xl:w-[30px]"
             alt="Default speaker"
             height={30}
@@ -145,8 +145,8 @@ const LeftSection = () => {
         <Image
           src={
             happyActive
-              ? "/community/assets/images/home_page/Filled-happy-emoji.svg"
-              : "/community/assets/images/home_page/Outlined-happy-emoji.svg"
+              ? "/assets/images/home_page/Filled-happy-emoji.svg"
+              : "/assets/images/home_page/Outlined-happy-emoji.svg"
           }
           height={0}
           width={0}
@@ -158,8 +158,8 @@ const LeftSection = () => {
         <Image
           src={
             sadActive
-              ? "/community/assets/images/home_page/Filled-sad-emoji.svg"
-              : "/community/assets/images/home_page/Outlined-sad-emoji.svg"
+              ? "/assets/images/home_page/Filled-sad-emoji.svg"
+              : "/assets/images/home_page/Outlined-sad-emoji.svg"
           }
           height={0}
           width={0}
@@ -253,10 +253,10 @@ const LeftSection = () => {
           >
             {logoPlayActive ? (
               <div>
-                {/* <img src="/community/assets/images/Dark-playstore.svg" alt="" /> */}
+                {/* <img src="/assets/images/Dark-playstore.svg" alt="" /> */}
                 <Image
                   className="ml-[.875rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72"
-                  src="/community/assets/images/home_page/Dark-playstore.svg"
+                  src="/assets/images/home_page/Dark-playstore.svg"
                   alt="Play store"
                   height={0}
                   width={0}
@@ -267,7 +267,7 @@ const LeftSection = () => {
               <div>
                 <Image
                   className="ml-[.875rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72"
-                  src="/community/assets/images/home_page/Light-playstore.svg"
+                  src="/assets/images/home_page/Light-playstore.svg"
                   alt="Play store"
                   height={0}
                   width={0}
@@ -298,7 +298,7 @@ const LeftSection = () => {
           >
             {logoAppActive ? (
               <Image
-                src="/community/assets/images/home_page/Dark-applestore.svg"
+                src="/assets/images/home_page/Dark-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
                 height={0}
@@ -307,7 +307,7 @@ const LeftSection = () => {
               />
             ) : (
               <Image
-                src="/community/assets/images/home_page/Light-applestore.svg"
+                src="/assets/images/home_page/Light-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
                 height={0}

@@ -11,43 +11,43 @@ const AboutKreatrBottom = () => {
     {
       name: "Abdul RahIman",
       description: "Traveller | Change Visualiser | Astrophile | Free Spirited",
-      image: "/community/assets/images/about-kreatr/ABDUL FINAL-01.svg",
+      image: "/assets/images/about-kreatr/ABDUL FINAL-01.svg",
     },
     {
       name: "Megha SatIsh",
       description: "Conceptualiser | Detail Freak | Leader | Gym Rat",
-      image: "/community/assets/images/about-kreatr/MEGHA FINAL-01.svg",
+      image: "/assets/images/about-kreatr/MEGHA FINAL-01.svg",
     },
     {
       name: "JevIn Mary",
       description: "Colours | Cats | Quills | Cine ",
-      image: "/community/assets/images/about-kreatr/JEVIN FINAL.svg",
+      image: "/assets/images/about-kreatr/JEVIN FINAL.svg",
     },
     {
       name: "Chanchal Verma",
       description:
         "Maximalist | Fashion Enthusiast | Coffee Expert | Sanrio Curator",
-      image: "/community/assets/images/about-kreatr/chanchal-01.svg",
+      image: "/assets/images/about-kreatr/chanchal-01.svg",
     },
     {
       name: "Aava Anna WIlson ",
       description: "Dogs | Books | Cakes | Creative",
-      image: "/community/assets/images/about-kreatr/aava-01.svg",
+      image: "/assets/images/about-kreatr/aava-01.svg",
     },
     {
       name: "PrIthvI Charan R",
       description: "Gym Rat | Sports Junkie | Biophilic | Kind",
-      image: "/community/assets/images/about-kreatr/Prithvi.svg",
+      image: "/assets/images/about-kreatr/Prithvi.svg",
     },
     {
       name: "Arnav Kulshrestha ",
       description: "Scintillating | Quick-Witted | Coder | Driven",
-      image: "/community/assets/images/about-kreatr/Arnav.svg",
+      image: "/assets/images/about-kreatr/Arnav.svg",
     },
     {
       name: "ShaIkha Farsana TK",
       description: "Code Enthusiast | Film Buff | Wanderlust | Foodie ",
-      image: "/community/assets/images/about-kreatr/shaikha-01.svg",
+      image: "/assets/images/about-kreatr/shaikha-01.svg",
     },
   ];
 
@@ -71,7 +71,7 @@ const AboutKreatrBottom = () => {
         <div className="relative h-[50px]">
           <Image
             className="absolute right-[36%] top-[-32%] h-[37px] w-[114px] rotate-[-4deg] sm:left-[44%] lg:left-[41%] lg:top-[-65%] lg:h-[70px] lg:w-[238px] xl:left-[41%] xl:h-[80px] xl:w-[248px]"
-            src={"/community/assets/images/about-kreatr/Kreatr_About.svg"}
+            src={"/assets/images/about-kreatr/Kreatr_About.svg"}
             alt="about kreatr image"
             width={238}
             height={70}
@@ -123,7 +123,7 @@ const AboutKreatrBottom = () => {
               <div className="image-box">
                 <Image
                   alt="you image"
-                  src="/community/assets/images/about-kreatr/YOU FINAL-01.svg"
+                  src="/assets/images/about-kreatr/YOU FINAL-01.svg"
                   className="h-[133px] w-[148px] sm:h-[190px] sm:w-[200px] lg:h-[210px] lg:w-[230px] xl:h-[227px] xl:w-[257px]"
                   height={227}
                   width={257}

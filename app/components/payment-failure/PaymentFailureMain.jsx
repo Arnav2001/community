@@ -6,7 +6,7 @@ const PaymentFailureMain = () => {
   return (
     <div className="mb-[50px] mt-[80px] flex h-full w-full flex-col items-center justify-center sm:mb-0 sm:mt-[50px] lg:mt-[60px] xl:mt-[110px]">
       <Image
-        src={"/community/assets/images/payment/failure-img.svg"}
+        src={"/assets/images/payment/failure-img.svg"}
         alt="image"
         width={130}
         height={124.06}
