@@ -145,7 +145,7 @@ const LeftSection = () => {
         <Image
           src={
             happyActive
-              ? "/community/assets/images/home_page/Outlined-happy-emoji.svg"
+              ? "/community/assets/images/home_page/Filled-happy-emoji.svg"
               : "/community/assets/images/home_page/Outlined-happy-emoji.svg"
           }
           height={0}
