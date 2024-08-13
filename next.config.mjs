@@ -14,7 +14,6 @@ const nextConfig = {
   },
   
   output:"standalone",
-  basePath:"/community",
   assetPrefix:"/community",
 
     images: {
