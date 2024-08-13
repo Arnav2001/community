@@ -9,8 +9,6 @@ const nextConfig = {
       // Add other rewrites if necessary
     ];
   },
-  output: "standalone",
-
   // assetPrefix: "/community",
   images: {
     domains: ['kreatrwebsite.s3.ap-south-1.amazonaws.com'],
