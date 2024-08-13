@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Community1 from "../../../../public/assets/images/about_community/about-community-1.jpg";
-import Community2 from "../../../../public/assets/images/about_community/about-community-2.jpg";
-import Community3 from "../../../../public/assets/images/about_community/about-community-3.jpg";
-import Community4 from "../../../../public/assets/images/about_community/about-community-4.jpg";
-import playstore from "../../../../public/assets/images/about_community/playstore-community.svg";
-import appstore from "../../../../public/assets/images/about_community/appstore-community.svg";
+import Community1 from "../../../../public/community/assets/images/about_community/about-community-1.jpg";
+import Community2 from "../../../../public/community/assets/images/about_community/about-community-2.jpg";
+import Community3 from "../../../../public/community/assets/images/about_community/about-community-3.jpg";
+import Community4 from "../../../../public/community/assets/images/about_community/about-community-4.jpg";
+import playstore from "../../../../public/community/assets/images/about_community/playstore-community.svg";
+import appstore from "../../../../public/community/assets/images/about_community/appstore-community.svg";
 
 const AboutCommunityHero = () => {
   return (
@@ -34,7 +34,7 @@ const AboutCommunityHero = () => {
               />
             </div>
           </div>
-          <div className="relative sm:static sm:mt-[30px] sm:flex lg:mt-[25px] sm:gap-[20px] lg:gap-[25px] xl:mt-[25px] xl:gap-[30px]">
+          <div className="relative sm:static sm:mt-[30px] sm:flex sm:gap-[20px] lg:mt-[25px] lg:gap-[25px] xl:mt-[25px] xl:gap-[30px]">
             <Image
               className="absolute left-[10%] top-[-32%] h-[228px] w-[254px] rounded-[15px]   object-cover object-center sm:static sm:h-[350px] sm:w-[320px] lg:h-[360px] lg:w-[390px] xl:h-[401px] xl:w-[456px]"
               src={Community2}
@@ -61,7 +61,7 @@ const AboutCommunityHero = () => {
               </ul>
             </div>
           </div>
-          <div className="relative mt-[206px] grid-cols-2 sm:static sm:mt-[30px] sm:grid lg:mt-[25px] sm:gap-[160px] lg:gap-[260px] xl:mt-[25px] xl:gap-[310px] ">
+          <div className="relative mt-[206px] grid-cols-2 sm:static sm:mt-[30px] sm:grid sm:gap-[160px] lg:mt-[25px] lg:gap-[260px] xl:mt-[25px] xl:gap-[310px] ">
             <div className="box3 h-[369px] w-[317px] px-[42px] pt-[98px] sm:ml-0 sm:h-[350px] sm:w-[400px] sm:p-[40px] lg:ml-[0px] lg:h-[360px] lg:w-[610px] lg:p-[46px] xl:ml-[0px] xl:h-[401px] xl:w-[688px] xl:p-[45px]">
               <h1 className="page-heading text-center text-[40px]  leading-[35px]  sm:text-start sm:text-[50px] sm:leading-[42px] lg:text-[70px] lg:leading-[56px] xl:text-[80px] xl:leading-[67px]">
                 WHY SHOULD YOU
@@ -85,7 +85,7 @@ const AboutCommunityHero = () => {
               />
             </div>
           </div>
-          <div className="relative mt-[206px] sm:mt-[30px] sm:flex lg:mt-[25px] sm:gap-[20px] lg:gap-[25px] xl:mt-[25px] xl:gap-[30px]">
+          <div className="relative mt-[206px] sm:mt-[30px] sm:flex sm:gap-[20px] lg:mt-[25px] lg:gap-[25px] xl:mt-[25px] xl:gap-[30px]">
             <div className="absolute left-[10%] top-[-40%] sm:static ">
               <Image
                 className="h-[228px] w-[254px] rounded-[15px] object-cover object-center sm:h-[350px] lg:h-[360px] lg:w-[390px] xl:h-[401px] xl:w-[456px]"
@@ -95,8 +95,7 @@ const AboutCommunityHero = () => {
             </div>
             <div className="box4 h-[369px] w-[317px] px-[25px] pt-[105px] sm:ml-[0px] sm:h-[350px] sm:w-[410px] sm:p-[50px] lg:ml-[0px] lg:h-[360px] lg:w-[586px] lg:px-[36px] lg:py-[30px] xl:ml-[0px] xl:h-[401px] xl:w-[688px] xl:p-[35px]">
               <h1 className="page-heading text-center  text-[40px] leading-[35px]  sm:text-start sm:text-[50px] sm:leading-[42px] lg:text-[70px] lg:leading-[56px] xl:text-[80px] xl:leading-[67px]">
-                hOW CAN YOU BE A PART
-                 OF OUR COMMUNITY?
+                hOW CAN YOU BE A PART OF OUR COMMUNITY?
               </h1>
               <p className="content-neue mt-[24px] list-disc  text-center text-[16px] leading-[18px] sm:text-start sm:text-[20px] lg:mt-[30px] lg:text-[18px] lg:leading-[22px] xl:text-[22px] xl:leading-[26px]">
                 Follow us on our socials and download the Kreatr app!

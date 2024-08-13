@@ -23,13 +23,13 @@ const CareersMainContent = ({ careerData }) => {
     <div>
       <div className="flex flex-col items-center justify-center">
         <div className="relative mb-[46px] mt-[34px] sm:mt-[60px] lg:mb-[54px] lg:mt-[35px] xl:mb-[64px]  xl:mt-[82px]">
-          <h1 className="page-heading text-[#2A2A2A] text-[40px] sm:text-[74px] lg:text-[94px] xl:text-[110px]">
+          <h1 className="page-heading text-[40px] text-[#2A2A2A] sm:text-[74px] lg:text-[94px] xl:text-[110px]">
             Careers
           </h1>
           <div className="absolute right-[-54%] top-[6%] rotate-[10deg] sm:right-[-66px] sm:top-[30px] lg:right-[-98px] lg:top-[24px] xl:right-[-35%] xl:top-[22%]">
             <Image
               className="h-[66.47px] w-[66.47px] sm:h-[76px] sm:w-[76px] lg:h-[110px] lg:w-[110px] xl:h-[120px] xl:w-[120px]"
-              src="/assets/images/careers_page/careers-img.svg"
+              src="/community/assets/images/careers_page/careers-img.svg"
               alt="careers image"
               height={0}
               width={0}
@@ -42,15 +42,15 @@ const CareersMainContent = ({ careerData }) => {
           <h4 className="content-neue-medium mr-3 mt-[-2px] text-[18px] capitalize sm:mr-[18px] sm:mt-[-4px] sm:text-[24px] lg:mt-[-6px] lg:text-[28px] xl:text-[33px]">
             {careerData.title}
           </h4>
-          <div className="content-neue flex justify-center items-center mr-[8px] h-[17px] w-[53px] rounded-[24px] border border-[#2A2A2A] text-center text-[10px] sm:mr-[15px] sm:h-[22px] sm:w-[70px] sm:text-[14px] lg:h-[30px] lg:w-[96px] lg:text-[16px] xl:h-[36px] xl:w-[95px] xl:text-[19px]">
+          <div className="content-neue mr-[8px] flex h-[17px] w-[53px] items-center justify-center rounded-[24px] border border-[#2A2A2A] text-center text-[10px] sm:mr-[15px] sm:h-[22px] sm:w-[70px] sm:text-[14px] lg:h-[30px] lg:w-[96px] lg:text-[16px] xl:h-[36px] xl:w-[95px] xl:text-[19px]">
             {careerData.type}
           </div>
-          <div className="content-neue flex justify-center items-center h-[17px] w-[53px] rounded-[24px] border border-[#2A2A2A] text-center text-[10px] sm:h-[22px] sm:w-[70px] sm:text-[14px] lg:h-[30px] lg:w-[96px] lg:text-[16px] xl:h-[36px] xl:w-[95px] xl:text-[19px]">
+          <div className="content-neue flex h-[17px] w-[53px] items-center justify-center rounded-[24px] border border-[#2A2A2A] text-center text-[10px] sm:h-[22px] sm:w-[70px] sm:text-[14px] lg:h-[30px] lg:w-[96px] lg:text-[16px] xl:h-[36px] xl:w-[95px] xl:text-[19px]">
             {careerData.location}
           </div>
         </div>
         <div className="mt-[10px] sm:mb-4  sm:mt-0">
-          <p className="content-neue text-[16px] sm:mb-[20px] whitespace-pre-line sm:text-[16px] lg:mb-[24px] lg:text-[18px] xl:mb-[24px] xl:text-[22px] lg:leading-[22px] xl:leading-[26px]">
+          <p className="content-neue whitespace-pre-line text-[16px] sm:mb-[20px] sm:text-[16px] lg:mb-[24px] lg:text-[18px] lg:leading-[22px] xl:mb-[24px] xl:text-[22px] xl:leading-[26px]">
             {careerData.description}
           </p>
 
@@ -59,7 +59,7 @@ const CareersMainContent = ({ careerData }) => {
           </p>
 
           <div>
-            <p className="content-neue ml-5 mt-[8px] list-disc text-[16px] sm:mb-[20px] sm:ml-5 sm:mt-0 sm:text-[16px] lg:mb-[24px] lg:ml-10 whitespace-pre-line lg:text-[18px] xl:mb-[24px] xl:text-[22px] lg:leading-[22px] xl:leading-[26px]">
+            <p className="content-neue ml-5 mt-[8px] list-disc whitespace-pre-line text-[16px] sm:mb-[20px] sm:ml-5 sm:mt-0 sm:text-[16px] lg:mb-[24px] lg:ml-10 lg:text-[18px] lg:leading-[22px] xl:mb-[24px] xl:text-[22px] xl:leading-[26px]">
               {careerData.responsibilities}
             </p>
           </div>
@@ -69,7 +69,7 @@ const CareersMainContent = ({ careerData }) => {
           </p>
 
           <div>
-            <p className="content-neue ml-5 mt-[8px] list-disc text-[16px] sm:ml-5 sm:mt-0 sm:text-[16px] lg:ml-10 lg:text-[18px] xl:text-[22px] whitespace-pre-line lg:leading-[22px] xl:leading-[26px]">
+            <p className="content-neue ml-5 mt-[8px] list-disc whitespace-pre-line text-[16px] sm:ml-5 sm:mt-0 sm:text-[16px] lg:ml-10 lg:text-[18px] lg:leading-[22px] xl:text-[22px] xl:leading-[26px]">
               {careerData.qualifications}
             </p>
           </div>
@@ -79,7 +79,7 @@ const CareersMainContent = ({ careerData }) => {
             href={careerData.url}
             target="_blank"
             rel="noreferrer"
-            className=" career-btn content-neue-medium flex h-[36px] w-[128px] cursor-pointer items-center justify-center rounded-[24px] bg-[#2A2A2A] text-center text-[15px] sm:hover:border sm:hover:border-[#2A2A2A]  sm:hover:bg-transparent sm:hover:text-[#2A2A2A] sm:h-[38px] sm:w-[220px] sm:text-[18px] lg:h-[42px] lg:w-[280px]  lg:text-[20px]"
+            className=" career-btn content-neue-medium flex h-[36px] w-[128px] cursor-pointer items-center justify-center rounded-[24px] bg-[#2A2A2A] text-center text-[15px] sm:h-[38px] sm:w-[220px]  sm:text-[18px] sm:hover:border sm:hover:border-[#2A2A2A] sm:hover:bg-transparent sm:hover:text-[#2A2A2A] lg:h-[42px] lg:w-[280px]  lg:text-[20px]"
           >
             Apply Now
           </Link>

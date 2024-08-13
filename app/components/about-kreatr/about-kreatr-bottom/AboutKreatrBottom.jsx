@@ -11,49 +11,49 @@ const AboutKreatrBottom = () => {
     {
       name: "Abdul RahIman",
       description: "Traveller | Change Visualiser | Astrophile | Free Spirited",
-      image: "/assets/images/about-kreatr/ABDUL FINAL-01.svg",
+      image: "/community/assets/images/about-kreatr/ABDUL FINAL-01.svg",
     },
     {
       name: "Megha SatIsh",
       description: "Conceptualiser | Detail Freak | Leader | Gym Rat",
-      image: "/assets/images/about-kreatr/MEGHA FINAL-01.svg",
+      image: "/community/assets/images/about-kreatr/MEGHA FINAL-01.svg",
     },
     {
       name: "JevIn Mary",
       description: "Colours | Cats | Quills | Cine ",
-      image: "/assets/images/about-kreatr/JEVIN FINAL.svg",
+      image: "/community/assets/images/about-kreatr/JEVIN FINAL.svg",
     },
     {
       name: "Chanchal Verma",
       description:
         "Maximalist | Fashion Enthusiast | Coffee Expert | Sanrio Curator",
-      image: "/assets/images/about-kreatr/chanchal-01.svg",
+      image: "/community/assets/images/about-kreatr/chanchal-01.svg",
     },
     {
       name: "Aava Anna WIlson ",
       description: "Dogs | Books | Cakes | Creative",
-      image: "/assets/images/about-kreatr/aava-01.svg",
+      image: "/community/assets/images/about-kreatr/aava-01.svg",
     },
     {
       name: "PrIthvI Charan R",
       description: "Gym Rat | Sports Junkie | Biophilic | Kind",
-      image: "/assets/images/about-kreatr/Prithvi.svg",
+      image: "/community/assets/images/about-kreatr/Prithvi.svg",
     },
     {
       name: "Arnav Kulshrestha ",
       description: "Scintillating | Quick-Witted | Coder | Driven",
-      image: "/assets/images/about-kreatr/Arnav.svg",
+      image: "/community/assets/images/about-kreatr/Arnav.svg",
     },
     {
       name: "ShaIkha Farsana TK",
       description: "Code Enthusiast | Film Buff | Wanderlust | Foodie ",
-      image: "/assets/images/about-kreatr/shaikha-01.svg",
+      image: "/community/assets/images/about-kreatr/shaikha-01.svg",
     },
   ];
 
   const handleCardFlip = (index) => {
     setFlippedIndex(index); // Flip the card
-    if(flippedIndex !== null){
+    if (flippedIndex !== null) {
       setFlippedIndex(null);
     }
     // Automatically flip back after 1.5 seconds
@@ -71,7 +71,7 @@ const AboutKreatrBottom = () => {
         <div className="relative h-[50px]">
           <Image
             className="absolute right-[36%] top-[-32%] h-[37px] w-[114px] rotate-[-4deg] sm:left-[44%] lg:left-[41%] lg:top-[-65%] lg:h-[70px] lg:w-[238px] xl:left-[41%] xl:h-[80px] xl:w-[248px]"
-            src={"/assets/images/about-kreatr/Kreatr_About.svg"}
+            src={"/community/assets/images/about-kreatr/Kreatr_About.svg"}
             alt="about kreatr image"
             width={238}
             height={70}
@@ -86,7 +86,7 @@ const AboutKreatrBottom = () => {
                 <div className="card flipped">
                   <div className="card-content">
                     <h2 className="card-title page-heading">{people.name}</h2>
-                    <p className="sm:block hidden card-description content-neue">
+                    <p className="card-description content-neue hidden sm:block">
                       {people.description}
                     </p>
                   </div>
@@ -112,14 +112,18 @@ const AboutKreatrBottom = () => {
               <div className="card flipped">
                 <div className="card-content">
                   <h2 className="card-title page-heading">THIS COULD BE YOU</h2>
-                  <Link href="/careers" ><div className="page-subhead xl:text-[12px] lg:text-[12px] bg-[#E2DFD3] text-[#2A2A2A] rounded-[18px] sm:text-[12px] text-[10px] px-[5px] sm:px-0 py-[8px]">Join our team</div></Link>
+                  <Link href="/careers">
+                    <div className="page-subhead rounded-[18px] bg-[#E2DFD3] px-[5px] py-[8px] text-[10px] text-[#2A2A2A] sm:px-0 sm:text-[12px] lg:text-[12px] xl:text-[12px]">
+                      Join our team
+                    </div>
+                  </Link>
                 </div>
               </div>
             ) : (
               <div className="image-box">
                 <Image
                   alt="you image"
-                  src="/assets/images/about-kreatr/YOU FINAL-01.svg"
+                  src="/community/assets/images/about-kreatr/YOU FINAL-01.svg"
                   className="h-[133px] w-[148px] sm:h-[190px] sm:w-[200px] lg:h-[210px] lg:w-[230px] xl:h-[227px] xl:w-[257px]"
                   height={227}
                   width={257}

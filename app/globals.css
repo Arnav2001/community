@@ -4,16 +4,16 @@
 
 @font-face {
   font-family: 'vina-sans';
-  src: url('/assets/fonts/VinaSans-Regular.ttf') format('truetype');
+  src: url('/community/assets/fonts/VinaSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Neue Montreal';
-  src: url('/assets/fonts/NeueMontreal-Regular.otf') format('truetype');
+  src: url('/community/assets/fonts/NeueMontreal-Regular.otf') format('truetype');
 }
 @font-face {
   font-family: 'Neue Montreal Bold';
-  src: url('/assets/fonts/NeueMontreal-Bold.otf') format('truetype');
+  src: url('/community/assets/fonts/NeueMontreal-Bold.otf') format('truetype');
 }
 
 .careers-subhead,.page-subhead{
@@ -48,7 +48,7 @@ h1{
 }
 
 .bg-img {
-  background: #fffced url(/assets/images/home_page/background-new.svg) no-repeat center/cover;
+  background: #fffced url(/community/assets/images/home_page/background-new.svg) no-repeat center/cover;
   width: 100%;
   background-attachment: fixed;
 }
@@ -517,10 +517,10 @@ h1{
   text-align: center;
 }
 .box4:hover .playstore{
-  content: url(../public/assets/images/about_community/playstore-yellow.svg);
+  content: url(../public/community/assets/images/about_community/playstore-yellow.svg);
 }
 .box4:hover .appstore{
-  content: url(../public/assets/images/about_community/appstore-yellow.svg);
+  content: url(../public/community/assets/images/about_community/appstore-yellow.svg);
 }
 } 
 
@@ -719,7 +719,7 @@ h1{
 /* bug report form */
 
 .bug-color-change:hover {
-  content: url(/assets/images/home_page/bug-pink.svg);
+  content: url(/community/assets/images/home_page/bug-pink.svg);
 }
 
 /* blog details css */

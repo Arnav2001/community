@@ -4,13 +4,17 @@ import Image from "next/image";
 const SearchSection = () => {
   return (
     <div>
-      <div className="flex flex-col items-center sm:mb-0 mb-[50px] justify-center mt-[10px] sm:mt-[60px] lg:mt-[54px] lg:mb-[3.5rem] xl:mt-[115px] xl:mb-[7rem]">
-        <h1 className="page-heading leading-4 sm:mt-[45px] sm:mb-[45px] mt-[45px] relative text-center sm:text-[73px] lg:text-[94px] xl:text-[110px] text-[#2A2A2A] text-[40px]">
-          Frequently Asked<span className="sm:hidden block"><br /></span> QuestIons
-          <span className="absolute xl:top-[246%] xl:right-[-7%] lg:top-[168%] lg:right-[-12%] sm:top-[150%] sm:right-[-10%] right-[22%] bottom-[-90%]">
+      <div className="mb-[50px] mt-[10px] flex flex-col items-center justify-center sm:mb-0 sm:mt-[60px] lg:mb-[3.5rem] lg:mt-[54px] xl:mb-[7rem] xl:mt-[115px]">
+        <h1 className="page-heading relative mt-[45px] text-center text-[40px] leading-4 text-[#2A2A2A] sm:mb-[45px] sm:mt-[45px] sm:text-[73px] lg:text-[94px] xl:text-[110px]">
+          Frequently Asked
+          <span className="block sm:hidden">
+            <br />
+          </span>{" "}
+          QuestIons
+          <span className="absolute bottom-[-90%] right-[22%] sm:right-[-10%] sm:top-[150%] lg:right-[-12%] lg:top-[168%] xl:right-[-7%] xl:top-[246%]">
             <Image
-            className="xl:w-[192.74px] xl:h-[72.27px] lg:w-[185px] lg:h-[65px] sm:w-[160px] sm:h-[55px] w-[109.81px] h-[41.17px]"
-              src="/assets/images/FAQ_page/FAQ-sticker.svg"
+              className="h-[41.17px] w-[109.81px] sm:h-[55px] sm:w-[160px] lg:h-[65px] lg:w-[185px] xl:h-[72.27px] xl:w-[192.74px]"
+              src="/community/assets/images/FAQ_page/FAQ-sticker.svg"
               alt="FAQ Sticker"
               height={0}
               width={0}

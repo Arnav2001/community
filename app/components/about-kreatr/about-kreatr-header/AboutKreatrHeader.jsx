@@ -14,7 +14,7 @@ const AboutKreatrHeader = () => {
       <div className="mt-[24px] flex  items-center justify-center sm:mt-[40px] lg:mt-[64px] xl:mt-[72px] ">
         <Image
           className="h-[178px] w-[317px] rounded-[15px] object-cover object-center sm:h-[400px] sm:w-[700px]  lg:h-[450px] lg:w-[968px] xl:h-[632px] xl:w-[1125px]"
-          src="/assets/images/about-kreatr/about-kreatr-balloon-img.jpg"
+          src="/community/assets/images/about-kreatr/about-kreatr-balloon-img.jpg"
           alt="balloon image"
           height={632}
           width={1125}
