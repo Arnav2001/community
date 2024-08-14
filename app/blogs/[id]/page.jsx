@@ -111,7 +111,7 @@ const BlogDetailsHero = () => {
                           target="_blank"
                           className="content-neuev text-[10px] lg:text-[14px] "
                         >
-                          <button className="bg-[#2A2A2A] mb-[18px] mt-[0px] lg:mb-[24px] lg:mt-[0px] text-[#FFFDEE] cursor-pointer rounded-[20px] lg:px-[12px] px-[9px] py-[4px] lg:py-[4px]">Image src</button>{" "}
+                          <button className="bg-[#2A2A2A] mb-[18px] mt-[0px] lg:mb-[24px] lg:mt-[0px] text-[#FFFDEE] cursor-pointer flex justify-center items-center rounded-[20px] lg:px-[12px] px-[9px] py-[4px] lg:py-[4px]">Image src</button>{" "}
                         </Link>
                       </>
                     );
