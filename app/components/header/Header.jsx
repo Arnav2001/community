@@ -164,9 +164,7 @@ const Header = () => {
                 >
                   <Image
                     className="h-[92px] w-[152px] hover:scale-105 sm:h-[130px] sm:w-[185px] lg:h-[85px] lg:w-[160px] xl:h-[110px] xl:w-[185px]"
-                    src={
-                      "/assets/images/home_page/menu_stickers/studio.svg"
-                    }
+                    src={"/assets/images/home_page/menu_stickers/studio.svg"}
                     alt="studio image"
                     height={90}
                     width={160}
@@ -226,9 +224,7 @@ const Header = () => {
               </div>
               <Image
                 className="pointer-events-none relative mt-[50px] h-[500px] w-[352px] rotate-[-3deg] sm:mt-[50px] sm:h-[710px] sm:w-[480px] md:w-[496px] lg:mt-0 lg:h-[430px] lg:w-[340px] xl:h-[500px] xl:w-[450px]"
-                src={
-                  "/assets/images/home_page/logo/ziplock-cover.png"
-                }
+                src={"/assets/images/home_page/logo/ziplock-cover.png"}
                 alt="Ziplock cover image"
                 height={430}
                 width={340}
