@@ -42,7 +42,12 @@ const RightFormSection = () => {
         if (response.ok) {
           console.log("data sent successfully");
           setSubmitted(true);
+          setMessageRows(1);
           form.reset();
+
+          setTimeout(() => {
+            setSubmitted(false);
+          }, 3000);
         } else {
           throw new Error("Failed to send data");
         }

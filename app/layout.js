@@ -5,8 +5,8 @@ import ClientProviders from './ClientProvider';
 
 
 export const metadata = {
-  title: "Kreatr",
-  description: "Kreatr Website description",
+  title: "Kreatr: Your Gateway to Creative Community | Bangalore, India",
+  description: " Looking for a community that meets your creative needs? Kreatr is a digital ecosystem that supports creatives across all fields of design. Join our community!",
 };
 
 

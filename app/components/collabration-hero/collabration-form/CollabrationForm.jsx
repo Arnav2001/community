@@ -54,6 +54,11 @@ const CollabrationForm = () => {
             email: "",
             collaborationType: "",
           });
+
+
+          setTimeout(() => {
+            setSubmitted(false);
+          }, 3000);
         } else {
           throw new Error("Failed to send data");
         }
