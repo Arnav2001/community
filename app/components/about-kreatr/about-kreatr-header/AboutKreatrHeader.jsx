@@ -16,6 +16,7 @@ const AboutKreatrHeader = () => {
           className="h-[178px] w-[317px] rounded-[15px] object-cover object-center sm:h-[400px] sm:w-[700px]  lg:h-[450px] lg:w-[968px] xl:h-[632px] xl:w-[1125px]"
           src="/assets/images/about-kreatr/about-kreatr-balloon-img.jpg"
           alt="balloon image"
+          loading="lazy"
           height={632}
           width={1125}
         />

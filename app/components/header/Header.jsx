@@ -86,6 +86,7 @@ const Header = () => {
               src={"/assets/images/home_page/logo/Kreatr-logo.svg"}
               alt="Kreatr Logo"
               height={27}
+              loading="eager"
               width={160}
             />
           </CustomLink>
@@ -122,6 +123,7 @@ const Header = () => {
                     "/assets/images/home_page/menu_stickers/menu-withshadow.svg"
                   }
                   alt="menu image"
+                  loading="lazy"
                   height={68}
                   width={120}
                 />
@@ -134,6 +136,7 @@ const Header = () => {
                   }
                   alt="explorer image"
                   height={60}
+                  loading="lazy"
                   width={90}
                 />
               </div>
@@ -149,6 +152,7 @@ const Header = () => {
                       "/assets/images/home_page/menu_stickers/about-layerblur.svg"
                     }
                     alt="about image"
+                    loading="lazy"
                     height={141}
                     width={141}
                   />
@@ -168,6 +172,7 @@ const Header = () => {
                     alt="studio image"
                     height={90}
                     width={160}
+                    loading="lazy"
                   />
                 </CustomLink>
               </div>
@@ -185,6 +190,7 @@ const Header = () => {
                     alt="events image"
                     height={66}
                     width={200}
+                    loading="lazy"
                   />
                 </CustomLink>
               </div>
@@ -202,6 +208,7 @@ const Header = () => {
                     alt="community image"
                     height={65}
                     width={170}
+                    loading="lazy"
                   />
                 </CustomLink>
               </div>
@@ -218,6 +225,7 @@ const Header = () => {
                     }
                     alt="contact image"
                     height={124}
+                    loading="lazy"
                     width={95}
                   />
                 </CustomLink>
@@ -227,6 +235,7 @@ const Header = () => {
                 src={"/assets/images/home_page/logo/ziplock-cover.png"}
                 alt="Ziplock cover image"
                 height={430}
+                loading="lazy"
                 width={340}
               />
             </div>

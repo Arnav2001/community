@@ -14,6 +14,7 @@ const CollabrationHeader = () => {
         alt="partner with us"
         height={0}
         width={0}
+        loading="lazy"
         sizes="100vw"
       />
     </div>

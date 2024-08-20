@@ -13,6 +13,7 @@ const AboutKreatrMiddle = () => {
             height={0}
             width={0}
             sizes="100vw"
+            loading="lazy"
           />
           <Image
             className="z-20 w-[calc(33.333%+30px)] sm:absolute sm:w-[calc(33.333%+50px)] lg:w-[calc(33.333%+70px)]"
@@ -21,6 +22,7 @@ const AboutKreatrMiddle = () => {
             height={0}
             width={0}
             sizes="100vw"
+            loading="lazy"
           />
           <Image
             className="z-40 w-[calc(33.333%-35px)] sm:absolute  sm:right-[6%] sm:w-[calc(33.333%-60px)] lg:right-[6%] lg:w-[calc(33.333%-90px)] xl:right-[6%]"
@@ -29,6 +31,7 @@ const AboutKreatrMiddle = () => {
             height={0}
             width={0}
             sizes="100vw"
+            loading="lazy"
           />
         </div>
       </div>
@@ -56,6 +59,7 @@ const AboutKreatrMiddle = () => {
                   alt="Kreatr image"
                   height={340}
                   width={550}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -67,6 +71,7 @@ const AboutKreatrMiddle = () => {
                   alt="Kreatr image"
                   height={650}
                   width={340}
+                  loading="lazy"
                 />
               </div>
               <div className="kreatr-box2 h-[264px] w-[317px] px-[30px] pt-[90px]  sm:h-[280px]  sm:w-[370px] sm:p-[50px]  lg:h-[280px] lg:w-[554px] lg:p-[50px]  xl:h-[295px] xl:w-[584px] xl:p-[45px]">
@@ -92,6 +97,3 @@ const AboutKreatrMiddle = () => {
 
 export default AboutKreatrMiddle;
 
-<div className="mt-[0px] flex flex-col justify-center sm:w-[700px] lg:w-[968px] xl:w-[1125px]">
-  <div className="kreatr-container   flex flex-col justify-center"></div>
-</div>;

@@ -496,6 +496,7 @@ const BlogListingHero = () => {
             alt=" blog sticker"
             height={isMobile ? 35 : isTabletView ? 50 : 105.78}
             width={isMobile ? 109.33 : isTabletView ? 210 : 331.05}
+            loading="lazy"
           />
         </div>
       </div>

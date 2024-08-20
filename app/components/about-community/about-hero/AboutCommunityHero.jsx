@@ -28,6 +28,7 @@ const AboutCommunityHero = () => {
                 height={0}
                 width={0}
                 sizes="100vw"
+                loading="lazy"
               />
             </div>
           </div>
@@ -39,6 +40,7 @@ const AboutCommunityHero = () => {
               height={0}
               width={0}
               sizes="100vw"
+              loading="lazy"
             />
 
             <div className="box2 mt-[168px] h-[369px] w-[317px] px-[25px]  pt-[132px] sm:mt-0 sm:h-[350px] sm:w-[347px] sm:p-[50px] lg:ml-[0px] lg:h-[360px] lg:w-[590px] lg:p-[62px] xl:ml-[0px] xl:h-[401px] xl:w-[688px] xl:p-[80px]">
@@ -85,6 +87,7 @@ const AboutCommunityHero = () => {
                 height={0}
                 width={0}
                 sizes="100vw"
+                loading="lazy"
               />
             </div>
           </div>
@@ -97,6 +100,7 @@ const AboutCommunityHero = () => {
                 height={0}
                 width={0}
                 sizes="100vw"
+                loading="lazy"
               />
             </div>
             <div className="box4 h-[369px] w-[317px] px-[25px] pt-[105px] sm:ml-[0px] sm:h-[350px] sm:w-[410px] sm:p-[50px] lg:ml-[0px] lg:h-[360px] lg:w-[586px] lg:px-[36px] lg:py-[30px] xl:ml-[0px] xl:h-[401px] xl:w-[688px] xl:p-[35px]">
@@ -124,6 +128,7 @@ const AboutCommunityHero = () => {
                     height={0}
                     width={0}
                     sizes="100vw"
+                    loading="lazy"
                   />
                 </Link>
                 <Link
@@ -137,6 +142,7 @@ const AboutCommunityHero = () => {
                     alt="play store icon"
                     height={0}
                     width={0}
+                    loading="lazy"
                     sizes="100vw"
                   />
                 </Link>

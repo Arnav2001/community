@@ -96,6 +96,7 @@ const LeftSection = () => {
             alt="Active speaker"
             height={30}
             width={30}
+            loading="lazy"
             onClick={handleSoundClick}
           />
         ) : (
@@ -105,6 +106,7 @@ const LeftSection = () => {
             alt="Default speaker"
             height={30}
             width={30}
+            loading="lazy"
             onClick={handleSoundClick}
           />
         )}
@@ -150,6 +152,7 @@ const LeftSection = () => {
           }
           height={0}
           width={0}
+          loading="lazy"
           sizes="100vw"
           onClick={toggleHappy}
           className="h-[2.1875rem] w-[2.1875rem] cursor-pointer  sm:h-[1.875rem] sm:w-[1.875rem] md:h-[1.875rem] md:w-[1.875rem] lg:h-[2.1875rem] lg:w-[2.1875rem] xl:h-40 xl:w-40 "
@@ -163,6 +166,7 @@ const LeftSection = () => {
           }
           height={0}
           width={0}
+          loading="lazy"
           sizes="100vw"
           onClick={toggleSad}
           className="h-[2.1875rem] w-[2.1875rem] cursor-pointer  sm:h-[1.875rem] sm:w-[1.875rem] md:h-[1.875rem] md:w-[1.875rem] lg:h-[2.1875rem] lg:w-[2.1875rem] xl:h-40 xl:w-40"
@@ -260,6 +264,7 @@ const LeftSection = () => {
                   alt="Play store"
                   height={0}
                   width={0}
+                  loading="lazy"
                   sizes="100vw"
                 />
               </div>
@@ -271,6 +276,7 @@ const LeftSection = () => {
                   alt="Play store"
                   height={0}
                   width={0}
+                  loading="lazy"
                   sizes="100vw"
                 />
               </div>
@@ -303,6 +309,7 @@ const LeftSection = () => {
                 alt="App store"
                 height={0}
                 width={0}
+                loading="lazy"
                 sizes="100vw"
               />
             ) : (
@@ -312,6 +319,7 @@ const LeftSection = () => {
                 alt="App store"
                 height={0}
                 width={0}
+                loading="lazy"
                 sizes="100vw"
               />
             )}

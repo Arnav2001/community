@@ -26,6 +26,7 @@ const LeftImageSection = () => {
                   className="mr-1 sm:h-[15px] sm:w-[15px] lg:h-[20px] lg:w-[20px] xl:h-[20px] xl:w-[20px]"
                   src="/assets/images/contact_page/Email-form.svg"
                   alt="Email"
+                  loading="lazy"
                 />
                 community@thekreatr.com
               </Link>
@@ -39,6 +40,7 @@ const LeftImageSection = () => {
                   className="mr-1 sm:h-[15px] sm:w-[15px] lg:h-[20px] lg:w-[20px] xl:h-[20px] xl:w-[20px]"
                   src="/assets/images/contact_page/Phone-form.svg"
                   alt="Phone"
+                  loading="lazy"
                 />
                 +91 72040 04953
               </Link>
@@ -50,6 +52,7 @@ const LeftImageSection = () => {
             className="h-[137px] w-[19.625rem] rounded-xl object-cover object-center sm:h-[171px] sm:w-[400px] lg:h-[171px] lg:w-[400px] xl:h-[191px] xl:w-[418px]"
             src="/assets/images/contact_page/contact-img.jpg"
             alt="form img"
+            loading="lazy"
           />
         </div>
         <div className="content-neue mt-[50px] flex flex-col items-center justify-center sm:hidden ">
@@ -68,6 +71,7 @@ const LeftImageSection = () => {
                   className="mr-1 xl:h-[15px] xl:w-[15px]"
                   src="/assets/images/contact_page/Email-form.svg"
                   alt="Email"
+                  loading="lazy"
                 />
                 marketing@thekreatr.com
               </Link>
@@ -81,6 +85,7 @@ const LeftImageSection = () => {
                   className="mr-1 xl:h-[15px] xl:w-[15px]"
                   src="/assets/images/contact_page/Phone-form.svg"
                   alt="Phone"
+                  loading="lazy"
                 />
                 +91 72040 04953
               </Link>

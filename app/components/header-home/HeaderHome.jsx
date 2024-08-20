@@ -36,6 +36,7 @@ const HeaderHome = () => {
               alt="Kreatr Logo"
               height={27}
               width={160}
+              loading="eager"
             />
           </Link>
         </div>

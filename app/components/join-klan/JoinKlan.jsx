@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const JoinKlan = () => {
   const [logoPlayActive, setLogoPlayActive] = useState(false);
   const [logoAppActive, setLogoAppActive] = useState(false);
@@ -38,6 +37,7 @@ const JoinKlan = () => {
           src="/assets/images/JOK_page/left-arrow.svg"
           className="absolute hidden sm:left-[10%] sm:block lg:left-[26%] lg:h-[98.82px] lg:w-[88.99px] xl:h-[108.82px] xl:w-[92.99px]"
           alt="left arrow"
+          loading="lazy"
           height={0}
           width={0}
         />
@@ -46,6 +46,7 @@ const JoinKlan = () => {
           className="absolute top-[12%] h-[40px] w-[13px]  lg:h-[46.2px] lg:w-[14.26px] xl:right-[47%] xl:top-[30%] xl:h-[46.2px] xl:w-[14.26px]"
           alt="center arrow"
           height={0}
+          loading="lazy"
           width={0}
         />
         <Image
@@ -53,6 +54,7 @@ const JoinKlan = () => {
           className="absolute hidden sm:right-[10%] sm:block lg:right-[26%] lg:h-[98.82px] lg:w-[88.99px] xl:h-[108.82px] xl:w-[92.99px]"
           alt="right arrow"
           height={0}
+          loading="lazy"
           width={0}
         />
       </div>
@@ -67,6 +69,7 @@ const JoinKlan = () => {
               src="/assets/images/JOK_page/instagram-JOK.svg"
               className="h-[77.33px] w-[77.33px] rotate-[8deg] lg:h-[100px] lg:w-[100px] xl:h-[101px] xl:w-[101px]"
               alt="instagram"
+              loading="lazy"
               height={0}
               width={0}
             />
@@ -85,6 +88,7 @@ const JoinKlan = () => {
               src="/assets/images/JOK_page/whatsapp-JOK.svg"
               className="h-[85px] w-[85px] lg:h-[110px] lg:w-[110px] xl:h-[112px] xl:w-[112px]"
               alt="whatsapp"
+              loading="lazy"
               height={0}
               width={0}
             />
@@ -103,6 +107,7 @@ const JoinKlan = () => {
               src="/assets/images/JOK_page/linkdin-JOK.svg"
               className="h-[69px] w-[69px] rotate-[8deg] lg:h-[92px] lg:w-[92px] xl:h-[92px] xl:w-[92px]"
               alt="linkdin"
+              loading="lazy"
               height={0}
               width={0}
             />
@@ -140,6 +145,7 @@ const JoinKlan = () => {
                   src="/assets/images/home_page/Dark-playstore.svg"
                   alt="Play store"
                   height={0}
+                  loading="lazy"
                   width={0}
                 />
               </div>
@@ -150,6 +156,7 @@ const JoinKlan = () => {
                   src="/assets/images/home_page/Light-playstore.svg"
                   alt="Play store"
                   height={0}
+                  loading="lazy"
                   width={0}
                 />
               </div>
@@ -179,6 +186,7 @@ const JoinKlan = () => {
                 src="/assets/images/home_page/Dark-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
+                loading="lazy"
                 height={0}
                 width={0}
               />
@@ -187,6 +195,7 @@ const JoinKlan = () => {
                 src="/assets/images/home_page/Light-applestore.svg"
                 className="ml-[.5rem] sm:h-[1.875rem] sm:w-[1.5rem] md:h-[1.875rem] md:w-[1.5rem] xl:h-44.09 xl:w-38.72 "
                 alt="App store"
+                loading="lazy"
                 height={0}
                 width={0}
               />
@@ -212,6 +221,7 @@ const JoinKlan = () => {
               src="/assets/images/home_page/Dark-playstore.svg"
               alt="Play store"
               height={0}
+              loading="lazy"
               width={0}
             />
             <p className="button-store mx-[10px] tracking-tight">
@@ -227,6 +237,7 @@ const JoinKlan = () => {
               className="ml-[.9375rem] h-[1.625rem] w-[1.4375rem]"
               alt="App store"
               height={0}
+              loading="lazy"
               width={0}
             />
             <p className="button-store mx-[10px] tracking-tight">

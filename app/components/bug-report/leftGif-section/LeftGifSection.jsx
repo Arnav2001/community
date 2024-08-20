@@ -24,6 +24,7 @@ const LeftGifSection = () => {
             height={171}
             width={400}
             unoptimized
+            loading="lazy"
           />
         </div>
         <div className="content-neue mt-[50px] flex flex-col items-center justify-center sm:hidden ">

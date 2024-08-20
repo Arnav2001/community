@@ -57,6 +57,7 @@ const BlogDetailsHero = () => {
                 sizes="100vw"
                 className="blogImg"
                 alt="Blog Cover Image"
+                loading="lazy"
               />
               <header className="blogHeading page-subhead text-[#2A2A2A]">
                 {blogData.heading} {/* Default text for debugging */}
@@ -105,6 +106,7 @@ const BlogDetailsHero = () => {
                           src={detail.value.src}
                           alt={detail.value.alt}
                           className={`${detail.class}`}
+                          loading="lazy"
                         />
                         <Link
                           href={detail.value.copywriteText}
