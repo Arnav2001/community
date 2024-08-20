@@ -8,6 +8,11 @@ import Spinner from "@/app/components/spinner/Spinner";
 import Image from "next/image";
 import Link from "next/link";
 
+
+export const metadata = {
+  title: "Read Our Blogs | Latest Design Trends",
+  description: "Explore our blogs for the latest design trends, insightful articles, and more. Stay informed and inspired with our engaging content!"
+};
 const BlogDetailsHero = () => {
   const { id } = useParams();
   const [loading, setLoading] = useState(true);

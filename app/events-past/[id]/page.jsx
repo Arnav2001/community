@@ -8,6 +8,11 @@ import PastHero from "@/app/components/events-past/PastHero";
 import { useParams } from "next/navigation";
 import Spinner from "@/app/components/spinner/Spinner";
 
+
+export const metadata = {
+  title: "Stay Updated: Kreatr Event Calendar",
+  description: " Join us at Kreatr for engaging design thinking workshops, interview masterclasses, and more. Unleash your creativity and innovation with us today!"
+};
 const PastDetails = () => {
   const { id } = useParams();
   const [pastData, setPastData] = useState(null);

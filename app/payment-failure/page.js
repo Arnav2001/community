@@ -4,6 +4,7 @@ import Footer from '../components/footer/Footer'
 import PaymentFailureMain from '../components/payment-failure/PaymentFailureMain'
 
 
+
 const PaymentFailure = () => {
   return (
     <main className='pt-[6.25rem] bg-img'>
