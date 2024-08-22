@@ -4,7 +4,6 @@ import BlogListingMobView from "./blog-listing-mob-view/BlogListingMobView";
 import useIsMobile from "@/app/hooks/customHook";
 import useIsTabletView from "@/app/hooks/isTabHook";
 import Link from "next/link";
-import Image from "next/image";
 import Spinner from "../spinner/Spinner";
 
 const BlogListingHero = () => {
@@ -496,6 +495,7 @@ const BlogListingHero = () => {
             alt=" blog sticker"
             height={isMobile ? 35 : isTabletView ? 50 : 105.78}
             width={isMobile ? 109.33 : isTabletView ? 210 : 331.05}
+            loading="lazy"
           />
         </div>
       </div>
