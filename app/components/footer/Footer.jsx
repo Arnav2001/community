@@ -23,6 +23,7 @@ const Footer = () => {
                       className=" md:h-[28px] md:w-[28px] lg:h-[30px] lg:w-[30px] xl:h-[36px] xl:w-[36px]"
                       alt="Whatsapp"
                       height={36}
+                      loading="lazy"
                       width={36}
                     />
                   </Link>
@@ -38,6 +39,7 @@ const Footer = () => {
                       className=" md:h-[28px] md:w-[28px] lg:h-[30px] lg:w-[30px] xl:h-[36px] xl:w-[36px]"
                       alt="Instagram"
                       height={36}
+                      loading="lazy"
                       width={36}
                     />
                   </Link>
@@ -53,6 +55,7 @@ const Footer = () => {
                       className=" md:h-[28px] md:w-[28px] lg:h-[30px] lg:w-[30px] xl:h-[36px] xl:w-[36px]"
                       alt="Linkedin"
                       height={36}
+                      loading="lazy"
                       width={36}
                     />
                   </Link>
@@ -184,6 +187,7 @@ const Footer = () => {
                   className="h-[20px] w-[20px] "
                   alt="Whatsapp"
                   height={31}
+                  loading="lazy"
                   width={31}
                 />
               </Link>
@@ -199,6 +203,7 @@ const Footer = () => {
                   className="h-[20px] w-[20px] "
                   alt="Instagram"
                   height={31}
+                  loading="lazy"
                   width={31}
                 />
               </Link>
@@ -214,6 +219,7 @@ const Footer = () => {
                   className="h-[20px] w-[20px] "
                   alt="Linkedin"
                   height={31}
+                  loading="lazy"
                   width={31}
                 />
               </Link>

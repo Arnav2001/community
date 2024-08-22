@@ -29,6 +29,7 @@ const ProceedCancelBtn = ({ onProceed, onCancel }) => {
               alt="cat image"
               height={20}
               width={20}
+              loading="lazy"
             />
           </div>
           <div
@@ -42,6 +43,7 @@ const ProceedCancelBtn = ({ onProceed, onCancel }) => {
               className="h-[18px] w-[18px] sm:h-[20px] sm:w-[20px] lg:h-[26px] lg:w-[26px] xl:h-[32px] xl:w-[32px]"
               height={10}
               width={10}
+              loading="lazy"
             />
           </div>
         </div>

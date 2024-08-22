@@ -34,6 +34,7 @@ function Card({ title, person }) {
             src="/assets/images/events_page/star-img.svg"
             height={150}
             width={150}
+            loading="lazy"
             className="h-[80px] w-[80px] sm:h-[100px] sm:w-[100px] lg:h-[120px] lg:w-[120px] xl:h-[150px] xl:w-[150px]"
             alt="star image"
           />
@@ -50,6 +51,7 @@ function Card({ title, person }) {
             className="h-[40px] w-[35px] sm:h-[50px] sm:w-[50px] lg:h-[70px] lg:w-[60px] xl:h-[110px] xl:w-[70px] "
             width={50}
             height={50}
+            loading="lazy"
             alt="comma image"
           />
         </div>

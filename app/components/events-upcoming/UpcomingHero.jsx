@@ -246,6 +246,7 @@ const UpcomingHero = ({ upcomingData, setHasUnsavedChanges }) => {
                       className={` h-auto w-full object-cover object-center  sm:h-[250px] sm:w-[250px] lg:h-[310px] lg:w-[310px] xl:h-[354px] xl:w-[354px]`}
                       src={item}
                       alt="events img"
+                      loading="lazy"
                     />
                   </Carousel.Slide>
                 ))}
@@ -266,6 +267,7 @@ const UpcomingHero = ({ upcomingData, setHasUnsavedChanges }) => {
                       className={` h-auto w-full object-cover object-center  sm:h-[250px] sm:w-[250px] lg:h-[310px] lg:w-[310px] xl:h-[354px] xl:w-[354px]`}
                       src={item}
                       alt="events img"
+                      loading="lazy"
                     />
                   </Carousel.Slide>
                 ))}

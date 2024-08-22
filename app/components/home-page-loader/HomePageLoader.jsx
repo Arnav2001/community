@@ -10,6 +10,7 @@ const HomePageLoader = () => {
             src="/assets/images/new clock.svg"
             alt="clock image"
             height={157}
+            loading="eager"
             width={128}
             className="absolute left-[11%] top-[-260%] z-20 h-[92px] w-[75px] sm:left-[28%] sm:top-[-100%] lg:left-[27%] lg:top-[-204%] lg:h-[157px] lg:w-[128px]"
           />
@@ -19,6 +20,7 @@ const HomePageLoader = () => {
           <Image
             src="/assets/images/weird boy.svg"
             alt="bulb image"
+            loading="eager"
             height={135}
             width={110}
             className="absolute right-[11%] top-[-116%] z-20 h-[82px] w-[67px] sm:right-[30%] sm:top-[-100%] lg:right-[34%] lg:top-[-101%] lg:h-[135px] lg:w-[110px]"
@@ -28,6 +30,7 @@ const HomePageLoader = () => {
           <Image
             src="/assets/images/pantone.svg"
             alt="clock image"
+            loading="eager"
             height={79}
             width={148}
             sizes="100vw"
@@ -44,6 +47,7 @@ const HomePageLoader = () => {
           <Image
             src="/assets/images/Welo.svg"
             alt="bulb image"
+            loading="eager"
             height={132}
             width={139}
             className="absolute right-[16%] top-[150%] z-20 h-[102px] w-[97px] sm:right-[24%] lg:right-[27%] lg:top-[78%] lg:h-[132px] lg:w-[139px]"

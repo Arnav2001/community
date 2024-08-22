@@ -520,7 +520,9 @@ const BlogListingHero = () => {
       </div>
     </div>
   ) : (
-    <p>No Blogs found</p>
+    <div className="min-h-[90vh] flex justify-center items-center">
+      <p className="page-subhead text-[1.25rem] sm:text-[1.875rem]">No Blogs found</p>
+    </div>
   );
 };
 

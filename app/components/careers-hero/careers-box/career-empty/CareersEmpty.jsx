@@ -16,6 +16,7 @@ const CareersEmpty = () => {
           src={"/assets/images/careers_page/smile-careers.svg"}
           width={80}
           height={80}
+          loading="lazy"
           alt="smile emoji"
         />
         <div className="content-neue-medium mt-[0px] text-center text-[20px] leading-[22px] text-[#4854D6] sm:mt-[0px] lg:text-[30px] lg:leading-[36px] xl:text-[40px] xl:leading-[42px]">

@@ -33,6 +33,7 @@ const CareersMainContent = ({ careerData }) => {
               alt="careers image"
               height={0}
               width={0}
+              loading="lazy"
             />
           </div>
         </div>

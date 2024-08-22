@@ -17,6 +17,7 @@ const SearchSection = () => {
               src="/assets/images/FAQ_page/FAQ-sticker.svg"
               alt="FAQ Sticker"
               height={0}
+              loading="lazy"
               width={0}
             />
           </span>

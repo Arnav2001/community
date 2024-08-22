@@ -8,6 +8,12 @@ import React from "react";
 import CareersMainContent from "@/app/components/careers-description/CareersMainContent";
 import Spinner from "@/app/components/spinner/Spinner";
 
+
+export const metadata = {
+  title: "Discover Your Dream Job at Kreatr | Bangalore",
+  description: "  Discover endless opportunities for your career at kreatr! Join our vibrant community of talented creatives and unlock your full potential. Explore now!"
+};
+
 const CareerDetails = () => {
   const { id } = useParams();
 

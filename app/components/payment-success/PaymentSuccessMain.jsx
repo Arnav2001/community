@@ -12,6 +12,8 @@ const PaymentSuccessMain = () => {
             className="h-[46px] w-[49px] sm:h-[102px] sm:w-[98px]"
             height={102}
             width={98}
+            loading="lazy"
+            alt="green tick"
           />
           <h2 className="page-subhead text-[16px] text-[#49A549] sm:text-[22px] lg:text-[32px] xl:text-[40px]">
             Ticket payment successful
@@ -22,6 +24,8 @@ const PaymentSuccessMain = () => {
             src="/assets/images/payment/ticket img.svg"
             height={122}
             width={100}
+            loading="lazy"
+            alt="ticket"
             className="h-[310px] w-[280px] sm:h-[400px] sm:w-[380px] lg:h-[560px] lg:w-[530px] xl:h-[692px] xl:w-[612px]"
           />
           <div className="absolute">

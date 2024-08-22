@@ -73,6 +73,7 @@ const AboutKreatrBottom = () => {
             className="absolute right-[36%] top-[-32%] h-[37px] w-[114px] rotate-[-4deg] sm:left-[44%] lg:left-[41%] lg:top-[-65%] lg:h-[70px] lg:w-[238px] xl:left-[41%] xl:h-[80px] xl:w-[248px]"
             src={"/assets/images/about-kreatr/Kreatr_About.svg"}
             alt="about kreatr image"
+            loading="lazy"
             width={238}
             height={70}
           />
@@ -97,6 +98,7 @@ const AboutKreatrBottom = () => {
                     className="h-[133px] w-[148px] sm:h-[190px] sm:w-[200px] lg:h-[210px] lg:w-[230px] xl:h-[227px] xl:w-[257px]"
                     src={people.image}
                     alt={people.name}
+                    loading="lazy"
                     height={227}
                     width={257}
                   />
@@ -127,6 +129,7 @@ const AboutKreatrBottom = () => {
                   className="h-[133px] w-[148px] sm:h-[190px] sm:w-[200px] lg:h-[210px] lg:w-[230px] xl:h-[227px] xl:w-[257px]"
                   height={227}
                   width={257}
+                  loading="lazy"
                 />
               </div>
             )}

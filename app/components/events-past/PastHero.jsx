@@ -51,6 +51,7 @@ const PastHero = ({ pastData }) => {
                   className="h-[398px] max-w-[100%] object-cover object-center lg:w-[990px] xl:w-[1125px]"
                   src={pastData.coverImg}
                   alt="main-img"
+                  loading="lazy"
                 />
               </div>
               <div className="content-neue-medium mt-[10px] flex items-center justify-center gap-[4px] text-[12px] text-[#2A2A2A] sm:mt-[18px] sm:text-[16px] lg:mt-[24px] lg:gap-[18px] lg:text-[18px] xl:text-[22px]">
@@ -115,6 +116,7 @@ const PastHero = ({ pastData }) => {
                               className="h-auto w-full object-cover object-center sm:h-[250px] sm:w-[250px] lg:h-[310px] lg:w-[310px] xl:h-[354px] xl:w-[354px]"
                               src={item}
                               alt="events img"
+                              loading="lazy"
                             />
                           )}
                         </Carousel.Slide>
@@ -151,6 +153,7 @@ const PastHero = ({ pastData }) => {
                               className="h-auto w-full object-cover object-center sm:h-[250px] sm:w-[250px] lg:h-[310px] lg:w-[310px] xl:h-[354px] xl:w-[354px]"
                               src={item}
                               alt="events img"
+                              loading="lazy"
                             />
                           )}
                         </Carousel.Slide>

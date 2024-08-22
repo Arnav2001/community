@@ -9,6 +9,12 @@ import UpcomingHero from "@/app/components/events-upcoming/UpcomingHero";
 import Spinner from "@/app/components/spinner/Spinner";
 import ProceedCancelBtn from "@/app/components/proceed-cancel/ProceedCancelBtn";
 
+
+export const metadata = {
+  title: "Stay Updated: Kreatr Event Calendar",
+  description: " Join us at Kreatr for engaging design thinking workshops, interview masterclasses, and more. Unleash your creativity and innovation with us today!"
+};
+
 const UpcomingDetails = () => {
   const router = useRouter();
   const { id } = useParams();
